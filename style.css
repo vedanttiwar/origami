@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+padding-inline-end: 100px;
+}
+/* * {
+    border: solid;
+} */
+
+.header *{border:solid}
+a:link{color:greenyellow}
+v:link{color:yellow}
+.header{
+    background-color: #934030;
+    letter-spacing: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.item{
+    display:flex;
+    position:relative   
+
+}
+.item p{
+    position:absolute;
+    opacity:0;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+
+}
+.item:hover p{opacity:1}
+.item:hover img{opacity:0.35}
